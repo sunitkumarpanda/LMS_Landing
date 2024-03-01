@@ -214,9 +214,12 @@ a{
         border-top-left-radius: 3rem;
         border-top-right-radius: 3rem;
 
+        padding: 5.5rem 2.5rem 7.5rem 2.5rem;
+
         & h2{
-            font-size: 4rem;
+            font-size: 3.9rem;
             font-weight: 100;
+            text-transform: uppercase;
         }
     }
 
@@ -225,4 +228,7 @@ a{
         gap: 90px;
         padding: 96px 0px;
     }
+
+
+    /* service container */
 }
