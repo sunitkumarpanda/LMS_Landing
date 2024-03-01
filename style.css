@@ -6,6 +6,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    /* scroll-behavior: smooth; */
+    /* scroll-snap-type:none; */
 }
 
 html,body{
@@ -204,3 +206,23 @@ a{
 
 
 /* Start Media Query */
+
+@media screen and (width <= 450px) {
+
+    .service-section{
+
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+
+        & h2{
+            font-size: 4rem;
+            font-weight: 100;
+        }
+    }
+
+    .service-grid-container-three--cols{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 90px;
+        padding: 96px 0px;
+    }
+}
