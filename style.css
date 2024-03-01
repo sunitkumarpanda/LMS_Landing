@@ -208,7 +208,40 @@ a{
 /* Start Media Query */
 
 @media screen and (width <= 450px) {
+    
 
+
+    /* start navigation */
+    .nav{
+        padding: 3rem 1.5rem;
+
+        & h1{
+            font-size: 2rem;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+    }
+
+    /* hero section */
+    .hero-section{
+        margin-bottom: 19.7rem;
+        margin-top: 12.7rem;
+        padding: 1.2rem;
+
+        & h1{
+            font-size: 3.9rem;
+
+            & span{
+                display: block;
+                /* white-space: nowrap; */
+            }
+
+            & .fillup{
+                color: #000;
+            }
+        }
+    }
+    /* start service section */
     .service-section{
 
         border-top-left-radius: 3rem;
