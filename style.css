@@ -303,5 +303,10 @@ a{
                 color: #fff;
             } */
         }
+
+        & .top-social-container{
+            margin-top: 2.8rem;
+            border-top: 1px solid #f1f1f1;
+        }
     }
 }
