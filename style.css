@@ -230,6 +230,7 @@ a{
 
         & h1{
             font-size: 3.9rem;
+            letter-spacing: 2px;
 
             & span{
                 display: block;
