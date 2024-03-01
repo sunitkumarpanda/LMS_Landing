@@ -245,8 +245,8 @@ a{
     /* start service section */
     .service-section{
 
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
 
         padding: 5.5rem 2.5rem 7.5rem 2.5rem;
 
