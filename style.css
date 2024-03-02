@@ -244,6 +244,20 @@ a{
         margin-top: 12.7rem;
         padding: 1.2rem;
 
+        .bounding{
+            width: fit-content;
+            /* background-color: tomato; */
+            overflow: hidden;
+
+            & span{
+                transform: translateY(100%);
+                -webkit-transform: translateY(100%);
+                -moz-transform: translateY(100%);
+                -ms-transform: translateY(100%);
+                -o-transform: translateY(100%);
+            }
+        }
+
         & h1{
             font-size: 4.5rem;
             letter-spacing: 2px;
