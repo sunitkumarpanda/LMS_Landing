@@ -260,7 +260,7 @@ a{
         padding: 5.5rem 2.5rem 7.5rem 2.5rem;
 
         & h2{
-            font-size: 3.9rem;
+            font-size: 3.5rem;
             font-weight: 100;
             text-transform: uppercase;
         }
@@ -294,7 +294,7 @@ a{
 
             padding: 2.5rem 2.6rem;
 
-            border-bottom: 1px solid #f1f1f1;
+            border-bottom: 1px solid #494949;
 
             & h2{
                 color: #ffffff;
@@ -306,7 +306,7 @@ a{
 
         & .top-social-container{
             margin-top: 2.8rem;
-            border-top: 1px solid #f1f1f1;
+            border-top: 1px solid #494949;
         }
     }
 }
