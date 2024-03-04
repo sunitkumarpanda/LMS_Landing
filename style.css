@@ -215,7 +215,7 @@ a{
 
 /* Start Media Query */
 
-@media screen and (width <= 700px) {
+@media screen and (width <= 450px) {
     
     /* .main{
         width: 100%;
