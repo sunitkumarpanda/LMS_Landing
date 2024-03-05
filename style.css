@@ -293,8 +293,24 @@ a{
         padding: 96px 0px;
     }
 
-
     /* end service section  */
+
+    /* section about */
+    .about-section{
+
+        /* width: 100%; */
+        height: 50vh;
+
+
+        /* & .moving-text{
+
+            p{
+                width: 4rem;
+            }
+        } */
+    }
+    
+    /* end about */
 
     .social-media-connection--section{
 
