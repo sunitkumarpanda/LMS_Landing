@@ -65,6 +65,7 @@ a{
     /* padding: 96px 21px; */
 }
 
+
 /* module / reusable */
 /* states */
 #mini-circle{
@@ -125,9 +126,25 @@ a{
 /* start Hero Section */
 .hero-section{
     margin-bottom: 5rem;
-    margin-top: 20rem;
+    margin-top: 10rem;
     padding-left: 7rem;
     /* background-color: tomato; */
+
+    .bounding{
+        width: fit-content;
+        /* background-color: tomato; */
+        overflow: hidden;
+    
+        & span{
+            display: block;
+
+            transform: translateY(100%);
+            -webkit-transform: translateY(100%);
+            -moz-transform: translateY(100%);
+            -ms-transform: translateY(100%);
+            -o-transform: translateY(100%);
+        }
+    }
 
     & h1{
         text-transform: uppercase;
@@ -135,6 +152,8 @@ a{
         font-size: 9rem;
         color: transparent;
     }
+
+
 }
 
 /* end Hero Section */
@@ -337,6 +356,8 @@ p{
 }
 
 .footer-legal--document{
+    /* border-top: 1px solid #494949; */
+
     margin-top: 4rem;
 
     display: flex;
