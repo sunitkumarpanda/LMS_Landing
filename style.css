@@ -271,12 +271,39 @@ p{
     padding-top: 70px;
     background-color: var(--black-bg-color);
     color: #fff;
-}
 
+    & h3{
+        font-size: 4rem;
+        text-transform: uppercase;
+        padding-left: 2.6rem;
+    }
+
+    & .best-social-media--container{
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 2.5rem 2.6rem;
+
+        border-bottom: 1px solid #494949;
+
+        & h2{
+            color: #fff;
+            font-size: 2rem;
+            letter-spacing: 0.1rem;
+        }
+    }
+
+    & .top-social-container{
+        margin-top: 2.8rem;
+        border-top: 1px solid #494949;
+    }
+}
 
 /* footer */
 /* .footer-1-container{
-
     font-size: 2rem;
 
     width: fit-content;
@@ -289,6 +316,52 @@ p{
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
 } */
+
+.footer-container{
+    padding: 5rem 3rem 1rem 3rem;
+
+    /* footer heading */
+    & h4{
+        font-size: 2rem;
+        text-transform: capitalize;
+        letter-spacing: .1rem;
+    }
+
+    /* footer - content */
+    & h5{
+        margin-top: 1rem;
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: .1rem;
+    }
+}
+
+.footer-legal--document{
+    margin-top: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .copy-right-container{
+
+        /* copyright */
+        & h6{
+            font-size: 1.5rem;
+            font-weight: 100;
+        }
+    }
+
+    & .privacy{
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: #fff;
+        font-weight: 100%;
+    }
+}
+
+
+/* btn */
 
 .top-btn-container{
     padding: 0rem 8rem;
@@ -324,7 +397,7 @@ p{
 
     & a{
         font-size: 2rem;
-        font-weight: 400;
+        font-weight: 500;
         text-decoration: none;
         /* color: #000; */
         color: var(--main-font-color);
@@ -408,7 +481,7 @@ p{
 
     /* hero section */
     .hero-section{
-        margin-bottom: 10.7rem;
+        margin-bottom: 1.7rem;
         margin-top: 12.7rem;
         padding: 1.2rem;
 
